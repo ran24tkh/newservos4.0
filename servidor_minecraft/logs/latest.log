@@ -1,0 +1,1425 @@
+[01Mar2026 16:39:54.686] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    运行版本 顿顽 / arclight-1.20.1-1.0.6-4e94eb76
+    构建日期 2025-01-21 16:18:32
+
+[01Mar2026 16:39:54.730] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, arclightserver, --fml.forgeVersion, 47.3.22, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[01Mar2026 16:39:54.731] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[01Mar2026 16:39:57.026] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is arclightserver
+[01Mar2026 16:39:57.112] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/newservos4.0/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2399!/ Service=ModLauncher Env=SERVER
+[01Mar2026 16:39:57.494] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/newservos4.0/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.22/fmlcore-1.20.1-47.3.22.jar is missing mods.toml file
+[01Mar2026 16:39:57.495] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/newservos4.0/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.22/javafmllanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[01Mar2026 16:39:57.496] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/newservos4.0/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.22/lowcodelanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[01Mar2026 16:39:57.497] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/newservos4.0/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.22/mclanguage-1.20.1-47.3.22.jar is missing mods.toml file
+[01Mar2026 16:39:57.896] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[01Mar2026 16:39:57.897] [main/INFO] [ArclightJiJ/]: Skip jij dependency org.yaml.snakeyaml@null because Arclight has org.yaml.snakeyaml@2.0
+[01Mar2026 16:40:00.966] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Mar2026 16:40:01.299] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[01Mar2026 16:40:01.325] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[01Mar2026 16:40:01.327] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[01Mar2026 16:40:01.331] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'arclightserver' with arguments [nogui]
+[01Mar2026 16:40:01.455] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.26.2+mc1.20.1: 98 options available, 0 override(s) found
+[01Mar2026 16:40:01.456] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[01Mar2026 16:40:01.473] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[01Mar2026 16:40:01.586] [main/WARN] [mixin/]: Reference map 'CerbonsAPI-Forge-1.20.1-forge-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Mar2026 16:40:01.744] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Mar2026 16:40:01.801] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Mar2026 16:40:01.844] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Mar2026 16:40:01.920] [main/INFO] [Puzzles Lib/]: Loading 134 mods:
+	- additionalstructures 4.2.2
+	- alexsmobs 1.22.9
+	- almanac 1.0.2
+	- alternate_current 1.7.0
+	- ancient_elements 1.4.5
+	- architectury 9.2.14
+	- arclight 1.20.1-1.0.6-SNAPSHOT-1345853c
+	- atistructures 1.4.0
+	- balm 7.3.38
+		\-- kuma_api 20.1.12
+	- beefix 1.0.7
+	- better_totem_of_undying 2.1.1
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterendcities 1.0.0-1.20.1
+	- betterendisland 1.20-Forge-2.0.6
+	- betterfortresses 1.20-Forge-2.0.6
+	- bettermineshafts 1.20-Forge-4.0.4
+	- bettervillage 3.3.1
+	- bfendcities 1.0
+	- blazegear 1.4.5
+	- blueprint 7.1.3
+	- bosses_of_mass_destruction 1.1.2
+	- carryon 2.1.2.7
+	- cavesanddepths 1.2.7
+	- cerbons_api 1.1.0
+	- charmofundying 6.5.0+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- chunky 1.3.146
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- cmdcam 2.2.0
+	- cnb 1.5.8
+	- connectivity 1.20.1-7.6
+	- creativecore 2.12.32
+	- cristellib 1.1.6
+	- cupboard 1.20.1-3.0
+	- curios 5.14.1+1.20.1
+	- deltaboxlib 2.2.0
+	- doespotatotick 1.20.1-5.5.5
+	- dreamcaslib 1.0.0
+	- dungeoncrawl 2.3.15
+	- dungeons_arise 2.1.58-1.20.x
+	- dungeons_enhanced 5.4.3
+	- dungeons_plus 1.5.0
+	- duplicationless 1.20.1-1.1.5
+	- easymagic 8.0.1
+	- echoes_of_the_end__structures_ 10.00.11
+	- ecologics 2.2.4
+	- elevatorid 1.20.1-1.9.1-forge
+	- elysium_api 1.1.3
+	- emotecraft 2.2.7-b.build.50
+	- endrem 5.3.3-R-1.20.1
+	- enlightened_end 5.0.14
+	- extra_dungeons 1.0.7
+	- faded_conquest_2 1.3.0
+	- fastasyncworldsave 1.20.1-2.6
+	- fastsuite 5.1.2
+	- ferritecore 6.0.1
+	- forge 47.3.22
+	- formations 1.0.4
+	- formationsnether 1.0.5
+	- friends_forever 1.0.0
+	- geckolib 4.8
+	- geophilic 3.4.6
+	- graveyard 3.1
+	- hearths 1.0.5
+	- hoporp 1.3.7
+	- icterine 1.3.0
+	- immersive_aircraft 1.4.0+1.20.1
+	- imst 2.1.0
+	- incendium 5.3.5
+	- jei 15.20.0.129
+	- jungle_treehouse_village 1.0.0
+	- kotlinforforge 4.12.0
+	- ksyxis 1.3.4
+	- letmedespawn 1.5.0
+	- libraryferret 4.0.0
+	- luminous_nether 1.3.2
+	- medieval_buildings 1.1.3
+	- mes 1.4.6-1.20-forge
+	- minecraft 1.20.1
+	- mns 2.0.2
+	- modernfix 5.26.2+mc1.20.1
+	- mofus_better_end_ 1.0.0
+	- moogs_structures 1.1.0-1.20-1.20.4
+	- mr_dungeons_andtaverns 1-v5.1.0
+	- mr_limesplatus_ending 1-v1.1.0c
+	- mr_qraftyfied 6
+	- mr_qraftys_endvillages 1
+	- mr_trek 1-B0.5.1.2
+	- nerb 0.4.1
+	- netherexp 2.3.5
+	- netheroverhaul 1.3.6
+	- nethers_exoticism 1.2.9
+	- nirvana 1.2.2
+		|-- galena_hats 1.20.1-1.2.2
+		|-- multikulti_core 1.20.1-1.1.5
+		\-- multikulti_registrate 1.20.1-1.1.5
+	- octolib 0.5.0.1
+	- outer_end 1.0.0
+	- palegardenbackport 2.0.3
+	- pehkui 3.8.2+1.20.1-forge
+	- piglinproliferation 1.20.1-1.2.6
+	- placebo 8.6.3
+	- playeranimator 1.0.2-rc1+1.20
+	- playerrevive 2.0.31
+	- puzzleslib 8.1.33
+		\-- puzzlesaccessapi 20.1.1
+	- sawmillhouse 2.0.1
+	- securitycraft 1.10.1
+	- sky_whale_ship 1.0.2
+	- smoothchunk 1.20.1-4.1
+	- sophisticatedbackpacks 3.24.24.1538
+	- sophisticatedcore 1.3.5.1505
+	- spark 1.10.53
+	- spelunkers_charm 3.6.0
+	- stalwart_dungeons 1.2.8
+	- structory 1.3.5
+	- structory_towers 1.0.7
+	- structure_gel 2.16.2
+	- t_and_t 0.0NONE
+	- takesapillage 1.0.3
+	- taxcp 1.0.1
+	- terrablender 3.0.1.10
+	- terralith 2.5.4
+	- tlc 1.0.2
+	- tombstone 9.0.9
+	- u_desert 1.6.3
+	- u_sea 1.2.3
+	- voicechat 1.20.1-2.6.12
+		\-- voicechat_api 2.6.0
+	- waystones 14.1.19
+	- wwoo_forge 2.0.0
+	- yungsapi 1.20-Forge-4.0.6
+	- yungscavebiomes 1.20.1-Forge-2.0.5
+[01Mar2026 16:40:01.935] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Mar2026 16:40:03.300] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Mar2026 16:40:03.323] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Mar2026 16:40:05.113] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/transfer/GenericItemFilling (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.transfer.GenericItemFilling)
+[01Mar2026 16:40:05.113] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.fluids.transfer.GenericItemFilling was not found nirvana.forge.mixins.json:GenericItemFillingMixin
+[01Mar2026 16:40:07.207] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via me.kall.duplicationless.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[01Mar2026 16:40:08.691] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (17.74 s after launch)
+[01Mar2026 16:40:08.939] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[01Mar2026 16:40:08.940] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[01Mar2026 16:40:09.006] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Mar2026 16:40:09.009] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Mar2026 16:40:11.591] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2895 milliseconds
+[01Mar2026 16:40:12.120] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_150430_ in mixins.arclight.core.json:world.inventory.AbstractContainerMenuMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01Mar2026 16:40:12.577] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Mar2026 16:40:12.577] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Mar2026 16:40:13.222] [main/WARN] [mixin/]: Injection warning: LVT in net/minecraft/world/item/BoatItem::m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; has incompatible changes at opcode 158 in callback securitycraft.mixins.json:boat.BoatItemMixin->@Inject::securitycraft$maybeSetSecuritySeaBoatOwner(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/HitResult;Lnet/minecraft/world/phys/Vec3;DLjava/util/List;Lnet/minecraft/world/entity/vehicle/Boat;)V.
+ Expected: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/HitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+    Found: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+Available: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;, Ljava/util/Iterator;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/world/phys/AABB;]
+[01Mar2026 16:40:15.575] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_230427_ in modernfix-modernfix.mixins.json:perf.cache_upgraded_structures.StructureManagerMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01Mar2026 16:40:16.459] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[01Mar2026 16:40:18.463] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[01Mar2026 16:40:18.470] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[01Mar2026 16:40:18.517] [modloading-worker-0/INFO] [de.cristelknight999.wwoo_forge.wwoo_forge/]: Enabling William Wythers' Overhauled Overworld [FORGE]
+[01Mar2026 16:40:18.595] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[01Mar2026 16:40:18.816] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[01Mar2026 16:40:18.833] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[01Mar2026 16:40:18.908] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[01Mar2026 16:40:18.962] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[01Mar2026 16:40:19.026] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[01Mar2026 16:40:19.218] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.22, for MC 1.20.1 with MCP 20230612.114412
+[01Mar2026 16:40:19.218] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.22 Initialized
+[01Mar2026 16:40:19.587] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[01Mar2026 16:40:19.587] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[01Mar2026 16:40:19.587] [modloading-worker-0/INFO] [terrablender/]: Registered region palegardenbackport:overworld to index 1 for type OVERWORLD
+[01Mar2026 16:40:19.620] [modloading-worker-0/INFO] [Ksyxis/MOD_KSYXIS]: Ksyxis: Booting... (platform: Forge/KForge, manual: false)
+[01Mar2026 16:40:19.622] [modloading-worker-0/INFO] [Ksyxis/MOD_KSYXIS]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (mixinVersion: 0.8.5, time: 1 ms)
+[01Mar2026 16:40:20.004] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[01Mar2026 16:40:20.046] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[01Mar2026 16:40:20.105] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[01Mar2026 16:40:20.448] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[01Mar2026 16:40:23.623] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[01Mar2026 16:40:23.633] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[01Mar2026 16:40:23.634] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[01Mar2026 16:40:23.636] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[01Mar2026 16:40:24.199] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[01Mar2026 16:40:24.343] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[01Mar2026 16:40:24.604] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[01Mar2026 16:40:24.630] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[01Mar2026 16:40:24.699] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[01Mar2026 16:40:24.702] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[01Mar2026 16:40:24.702] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[01Mar2026 16:40:24.702] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[01Mar2026 16:40:25.352] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [piglinproliferation] Starting version check at https://api.modrinth.com/updates/piglin-proliferation/forge_updates.json
+[01Mar2026 16:40:25.679] [main/INFO] [terrablender/]: Registered region yungscavebiomes:overworld to index 2 for type OVERWORLD
+[01Mar2026 16:40:25.784] [main/INFO] [terrablender/]: Registered region luminous_nether:nether_region to index 1 for type NETHER
+[01Mar2026 16:40:26.167] [modloading-worker-0/INFO] [com.choicetheorem.imst.imst/]: Got IMC []
+[01Mar2026 16:40:26.370] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[01Mar2026 16:40:26.372] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[01Mar2026 16:40:26.372] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[01Mar2026 16:40:26.993] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Mar2026 16:40:27.120] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[01Mar2026 16:40:27.643] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/newservos4.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23415!/assets/.mcassetsroot' uses unexpected schema
+[01Mar2026 16:40:27.643] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/newservos4.0/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23415!/data/.mcassetsroot' uses unexpected schema
+[01Mar2026 16:40:27.734] [main/ERROR] [net.minecraft.server.packs.AbstractPackResources/]: Couldn't load pack metadata
+com.google.gson.JsonSyntaxException: Missing pack_format, expected to find a Int
+	at net.minecraft.util.GsonHelper.m_13927_(GsonHelper.java:277) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:15) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.server.packs.metadata.pack.PackMetadataSectionSerializer.m_6322_(PackMetadataSectionSerializer.java:9) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.server.packs.AbstractPackResources.m_10214_(AbstractPackResources.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.server.packs.AbstractPackResources.m_5550_(AbstractPackResources.java:33) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at net.minecraft.server.packs.repository.Pack.m_246334_(Pack.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.packs.repository.Pack.m_245429_(Pack.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.server.ServerLifecycleHooks.serverPackFinder(ServerLifecycleHooks.java:211) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading}
+	at net.minecraftforge.server.ServerLifecycleHooks.lambda$buildPackFinder$3(ServerLifecycleHooks.java:202) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.packs.repository.PackRepository.m_10526_(PackRepository.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.packs.repository.PackRepository.m_10506_(PackRepository.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_246048_(MinecraftServerMixin.java:1353) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.WorldLoader$PackConfig.m_214399_(WorldLoader.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:blueprint.mixins.json:WorldLoaderPackConfigMixin,pl:mixin:A}
+	at net.minecraft.server.WorldLoader.m_214362_(WorldLoaderMixin.java:28) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.WorldLoaderMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:feature.measure_time.WorldLoaderMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.WorldLoaderMixin,pl:mixin:A}
+	at net.minecraft.server.Main.lambda$main$2(Main.java:167) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.Util.m_214652_(Util.java:777) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.thread_priorities.UtilMixin,pl:mixin:APP:bettermineshafts.mixins.json:SuppressLogMixin,pl:mixin:A}
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.thread_priorities.UtilMixin,pl:mixin:APP:bettermineshafts.mixins.json:SuppressLogMixin,pl:mixin:A}
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,pl:accesstransformer:B}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {re:mixin}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.22.jar%23103!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.22.jar%23103!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.22.jar%23103!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2389!/:?] {}
+	at io.izzel.arclight.boot.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:46) ~[vanilla.jar:arclight-1.20.1-1.0.6-4e94eb76] {}
+	at io.izzel.arclight.boot.application.ApplicationBootstrap.accept(ApplicationBootstrap.java:13) ~[vanilla.jar:arclight-1.20.1-1.0.6-4e94eb76] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {re:mixin}
+	at io.izzel.arclight.boot.application.Main_Forge.main(Main_Forge.java:23) ~[vanilla.jar%2383!/:arclight-1.20.1-1.0.6-4e94eb76] {}
+	at io.izzel.arclight.server.Launcher.main(Launcher.java:18) ~[vanilla.jar%2383!/:arclight-1.20.1-1.0.6-4e94eb76] {}
+[01Mar2026 16:40:27.734] [main/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack mod:mr_dungeons_andtaverns
+[01Mar2026 16:40:27.782] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:mr_dungeons_andtaverns
+[01Mar2026 16:40:28.192] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[01Mar2026 16:40:31.471] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[01Mar2026 16:40:31.566] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:impact_projectiles as it is missing following references: ancient_elements:crystalbeam_projectile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:deflected_wind (from ancient_elements-1.4.5.jar), 
+	ancient_elements:wind (from ancient_elements-1.4.5.jar), 
+	ancient_elements:aero_blow (from ancient_elements-1.4.5.jar), 
+	ancient_elements:dark_matter_projektile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:dynamite_projectile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:earth_charge_projektile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:elementinium_projektile_projectile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:geode_projektile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:gravity_chargee (from ancient_elements-1.4.5.jar), 
+	ancient_elements:z_topaz_ball_projectile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:zthrowrockattack_projectile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:water_charge_projektile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:astrellure_projektile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:fireball (from ancient_elements-1.4.5.jar), 
+	ancient_elements:void_bolt_projektile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:soul_knife_projektile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:throwing_knife_projektile (from ancient_elements-1.4.5.jar), 
+	ancient_elements:wave_projektile (from ancient_elements-1.4.5.jar)
+[01Mar2026 16:40:31.690] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slabs as it is missing following references: outer_end:azure_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:himmel_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:violite_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:violite_brick_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:mossy_violite_brick_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:violite_tile_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:mossy_violite_tile_vertical_slab (from TheOuterEnd-1.0.12.jar)
+[01Mar2026 16:40:31.694] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag enlightened_end:cerulean_stalk_blocks as it is missing following references: enlightened_end:cerulean_stalk_block (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:stripped_cerulean_stalk_block (from enlightend-5.0.14-1.20.1.jar)
+[01Mar2026 16:40:31.767] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_3 as it is missing following references: enlightened_end:enduring_waste (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voidsteel_block (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:adamantite_plate_block (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:adamantite_glass (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:adamantite_glass_pane (from enlightend-5.0.14-1.20.1.jar)
+[01Mar2026 16:40:31.768] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_0 as it is missing following references: enlightened_end:chiseled_purpur (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:purpur_lamp (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:infested_end_stone (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:congealed_eylium (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:polished_nullstone (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:polished_nullstone_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:polished_nullstone_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:polished_nullstone_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:cracked_nullstone_bricks (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_bricks (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_brick_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_brick_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_brick_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_pillar (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:chiseled_nullstone (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nullstone_lamp (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_lamp (from enlightend-5.0.14-1.20.1.jar)
+[01Mar2026 16:40:31.768] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_2 as it is missing following references: enlightened_end:waxed_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:waxed_bismuth_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:infernal_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:infernal_bismuth_sheet_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:infernal_bismuth_sheet_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:warm_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:warm_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:warm_bismuth_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:temperate_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:temperate_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:temperate_bismuth_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:frosty_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:frosty_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:frosty_bismuth_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:aquatic_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:aquatic_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:aquatic_bismuth_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:dark_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:dark_bismuth_sheet_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:dark_bismuth_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nebulous_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nebulous_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:nebulous_bismuth_sheet_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:prismatic_bismuth_sheets (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:prismatic_bismuth_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:prismatic_bismuth_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:repulsium_block (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:repulsium_cluster (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:atractonite_block (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:atractonite_cluster (from enlightend-5.0.14-1.20.1.jar)
+[01Mar2026 16:40:31.768] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_1 as it is missing following references: enlightened_end:malachite_pillar (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:smooth_malachite (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:smooth_malachite_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:smooth_malachite_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:smooth_malachite_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_pressure_plate (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_button (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:polished_voikrust (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:polished_voikrust_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:polished_voikrust_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:polished_voikrust_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_bricks (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_brick_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_brick_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_brick_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:chiseled_voikrust (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:cracked_voikrust_bricks (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:voikrust_pillar (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:mossy_voikrust (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:mossy_voikrust_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:mossy_voikrust_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:mossy_voikrust_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:mossy_voikrust_bricks (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:mossy_voikrust_brick_stairs (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:mossy_voikrust_brick_slab (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:mossy_voikrust_brick_wall (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:end_biome_placer (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:transitioning_end_portal (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:biome_replace_block (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:biome_replace_chance (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:enderneath_tunnel (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:ennegel_hang_generate (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:enderneath_replace (from enlightend-5.0.14-1.20.1.jar), 
+	enlightened_end:enderneath_replace_chance (from enlightend-5.0.14-1.20.1.jar)
+[01Mar2026 16:40:31.775] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag quark:vertical_slabs as it is missing following references: outer_end:azure_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:himmel_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:violite_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:violite_brick_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:mossy_violite_brick_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:violite_tile_vertical_slab (from TheOuterEnd-1.0.12.jar), 
+	outer_end:mossy_violite_tile_vertical_slab (from TheOuterEnd-1.0.12.jar)
+[01Mar2026 16:40:32.515] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_vertical_slab
+java.lang.IllegalArgumentException: Can't find block outer_end:azure_vertical_slab
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooksMixin.java:871) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooksMixin.java:848) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManagerMixin.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManagerMixin.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+[01Mar2026 16:40:32.540] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_ladder
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:azure_ladder'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?] {re:mixin}
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooksMixin.java:871) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooksMixin.java:848) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManagerMixin.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManagerMixin.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+[01Mar2026 16:40:32.631] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ati_structures:chests/archer_chest
+com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_components'
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooksMixin.java:871) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooksMixin.java:848) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManagerMixin.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManagerMixin.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+[01Mar2026 16:40:32.768] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_vertical_planks
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:azure_vertical_planks'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?] {re:mixin}
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooksMixin.java:871) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooksMixin.java:848) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManagerMixin.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManagerMixin.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+[01Mar2026 16:40:32.776] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/azure_post
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:azure_post'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?] {re:mixin}
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooksMixin.java:871) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooksMixin.java:848) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManagerMixin.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManagerMixin.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+[01Mar2026 16:40:32.820] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/himmel_vertical_slab
+java.lang.IllegalArgumentException: Can't find block outer_end:himmel_vertical_slab
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_81802_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:79) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition$Serializer.m_7561_(LootItemBlockStatePropertyCondition.java:68) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:98) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooksMixin.java:871) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooksMixin.java:848) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManagerMixin.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManagerMixin.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+[01Mar2026 16:40:33.005] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:enlightened_end:entities/sacrifice_statue_gift
+com.google.gson.JsonSyntaxException: Unknown enchantment 'enlightened_end:frost_aspect'
+	at net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Serializer.m_80465_(EnchantRandomlyFunction.java:137) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Serializer.m_6821_(EnchantRandomlyFunction.java:137) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction$Serializer.m_6821_(EnchantRandomlyFunction.java:111) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:99) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction$Serializer.m_7561_(LootItemConditionalFunction.java:88) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:149) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooksMixin.java:871) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooksMixin.java:848) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManagerMixin.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManagerMixin.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+[01Mar2026 16:40:33.034] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:outer_end:blocks/stripped_azure_post
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'outer_end:stripped_azure_post'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?] {re:mixin}
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootEntry_SerializerMixin.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:APP:mixins.arclight.core.json:world.level.storage.loot.entries.LootEntry_SerializerMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,re:mixin}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%23106!/:?] {}
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%23106!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooksMixin.java:871) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooksMixin.java:848) ~[forge-1.20.1-47.3.22-universal.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.faster_ingredients.ForgeHooksMixin,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:APP:mixins.arclight.forge.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading}
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManagerMixin.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?] {re:mixin}
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManagerMixin.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:mixin,re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {re:mixin}
+[01Mar2026 16:40:33.061] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[01Mar2026 16:40:33.182] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Mar2026 16:40:33.182] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Mar2026 16:40:33.182] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Mar2026 16:40:33.182] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/underground_cabin}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Mar2026 16:40:33.182] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:minecraft:chests/underground_cabin}.pools[1].entries[9].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[01Mar2026 16:40:33.182] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[01Mar2026 16:40:33.194] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab_from_violite_stonecutting as it's serializer returned null
+[01Mar2026 16:40:33.200] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab_violite_stonecutting as it's serializer returned null
+[01Mar2026 16:40:33.203] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.207] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_ladder as it's serializer returned null
+[01Mar2026 16:40:33.210] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.211] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/slab_from_vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.217] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:stripped_azure_post as it's serializer returned null
+[01Mar2026 16:40:33.220] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_sign: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[01Mar2026 16:40:33.222] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe luminous_nether:supplementaries_ash_block: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:ash'
+[01Mar2026 16:40:33.222] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_bookshelf as it's serializer returned null
+[01Mar2026 16:40:33.222] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/vertical_slab_stonecutting as it's serializer returned null
+[01Mar2026 16:40:33.226] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/slab_from_vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.229] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/vertical_slab_stonecutting as it's serializer returned null
+[01Mar2026 16:40:33.229] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab_stonecutting as it's serializer returned null
+[01Mar2026 16:40:33.238] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/vertical_slab_stonecutting as it's serializer returned null
+[01Mar2026 16:40:33.240] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_slab_stonecutting as it's serializer returned null
+[01Mar2026 16:40:33.241] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.243] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_pith: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[01Mar2026 16:40:33.247] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_to_slab as it's serializer returned null
+[01Mar2026 16:40:33.249] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_post as it's serializer returned null
+[01Mar2026 16:40:33.256] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe outer_end:azure_chest: com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
+[01Mar2026 16:40:33.258] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/slab_from_vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.259] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/slab_from_vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.260] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
+[01Mar2026 16:40:33.262] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_door: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[01Mar2026 16:40:33.275] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_tiles/vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.275] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/bricks/vertical_slab_stonecutting as it's serializer returned null
+[01Mar2026 16:40:33.275] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_to_planks as it's serializer returned null
+[01Mar2026 16:40:33.278] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_stem: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[01Mar2026 16:40:33.278] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe famersdelight:adamantite_knife_smithing: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+[01Mar2026 16:40:33.281] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/mossy_bricks/vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.285] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/tiles/slab_from_vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.286] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.289] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:himmel_vertical_to_slab as it's serializer returned null
+[01Mar2026 16:40:33.299] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:azure_vertical_planks as it's serializer returned null
+[01Mar2026 16:40:33.300] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe luminous_nether:supplementaries_reverse_ash: com.google.gson.JsonSyntaxException: Unknown item 'supplementaries:ash'
+[01Mar2026 16:40:33.302] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:cutting/azure_trapdoor: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[01Mar2026 16:40:33.308] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe outer_end:azure_trapped_chest: com.google.gson.JsonSyntaxException: Unknown item 'outer_end:azure_chest'
+[01Mar2026 16:40:33.311] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe outer_end:violite/vertical_slab as it's serializer returned null
+[01Mar2026 16:40:33.314] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[01Mar2026 16:40:33.314] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[01Mar2026 16:40:33.409] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement outer_end:end/find_catacombs: Expected item to be an item, was unknown string 'outer_end:chiseled_violite'
+[01Mar2026 16:40:33.471] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3247 advancements
+[01Mar2026 16:40:33.480] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[01Mar2026 16:40:33.499] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[01Mar2026 16:40:33.502] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[01Mar2026 16:40:33.511] [main/INFO] [Dungeon Crawl/]: Loading data...
+[01Mar2026 16:40:33.795] [main/INFO] [Dungeon Crawl/]: Done.
+[01Mar2026 16:40:33.803] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 1 modifier groups
+[01Mar2026 16:40:33.809] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[01Mar2026 16:40:33.863] [main/WARN] [ModernFix/]: Initial datapack load took 6.177 s
+[01Mar2026 16:40:34.183] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[01Mar2026 16:40:34.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Mar2026 16:40:34.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Mar2026 16:40:34.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Mar2026 16:40:34.325] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Mar2026 16:40:34.352] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Mar2026 16:40:34.441] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Mar2026 16:40:34.441] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Mar2026 16:40:34.441] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Mar2026 16:40:34.441] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Mar2026 16:40:34.716] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.20.1-1.0.6-4e94eb76 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[01Mar2026 16:40:35.551] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[01Mar2026 16:40:35.852] [Server thread/INFO] [Arclight/]: 注册了 4269 个材料，其中 2510 个方块 1759 个物品
+[01Mar2026 16:40:35.856] [Server thread/INFO] [Arclight/]: 注册了 114 个新的药水效果
+[01Mar2026 16:40:35.866] [Server thread/INFO] [Arclight/]: 注册了 87 个新的附魔
+[01Mar2026 16:40:36.001] [Server thread/INFO] [Arclight/]: 注册了 528 个新的生物类型
+[01Mar2026 16:40:36.001] [Server thread/INFO] [Arclight/]: 注册了 1 个新的村民职业
+[01Mar2026 16:40:36.008] [Server thread/INFO] [Arclight/]: 注册了 131 个新的生物群系
+[01Mar2026 16:40:36.035] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[01Mar2026 16:40:36.037] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[01Mar2026 16:40:36.038] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[01Mar2026 16:40:36.278] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[01Mar2026 16:40:36.731] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[01Mar2026 16:40:37.220] [Server thread/INFO] [ClearLag/]: Loading ClearLag v3.2.2
+[01Mar2026 16:40:37.220] [Server thread/INFO] [LuckPerms/]: Loading LuckPerms v5.5.32
+[01Mar2026 16:40:38.253] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [piglinproliferation] Found status: UP_TO_DATE Current: 1.20.1-1.2.6 Target: null
+[01Mar2026 16:40:38.253] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
+[01Mar2026 16:40:38.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: UP_TO_DATE Current: 4.2.2 Target: null
+[01Mar2026 16:40:38.284] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[01Mar2026 16:40:38.338] [Server thread/INFO] [LuckPerms/]: Loading configuration...
+[01Mar2026 16:40:38.460] [Server thread/INFO] [CrisTreeCapitator/]: Loading CrisTreeCapitator v6.4.4
+[01Mar2026 16:40:38.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[01Mar2026 16:40:38.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_plus] Starting version check at http://changelogs.moddinglegacy.com/dungeons-plus.json
+[01Mar2026 16:40:38.463] [Server thread/INFO] [LuckPerms/]: Enabling LuckPerms v5.5.32
+[01Mar2026 16:40:38.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_plus] Found status: BETA Current: 1.5.0 Target: null
+[01Mar2026 16:40:38.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[01Mar2026 16:40:38.547] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: UP_TO_DATE Current: 5.4.3 Target: null
+[01Mar2026 16:40:38.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[01Mar2026 16:40:39.152] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Mar2026 16:40:39.153] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[01Mar2026 16:40:39.691] [Server thread/INFO] [Console/]:         __    
+[01Mar2026 16:40:39.692] [Server thread/INFO] [Console/]:   |    |__)   LuckPerms v5.5.32
+[01Mar2026 16:40:39.692] [Server thread/INFO] [Console/]:   |___ |      Running on Bukkit - Arclight
+[01Mar2026 16:40:39.692] [Server thread/INFO] [Console/]: 
+[01Mar2026 16:40:40.062] [Server thread/INFO] [LuckPerms/]: Loading storage provider... [H2]
+[01Mar2026 16:40:41.891] [Server thread/INFO] [LuckPerms/]: Loading internal permission managers...
+[01Mar2026 16:40:42.505] [Server thread/INFO] [LuckPerms/]: Performing initial data load...
+[01Mar2026 16:40:42.696] [Server thread/INFO] [LuckPerms/]: Successfully enabled. (took 4232ms)
+[01Mar2026 16:40:42.713] [Server thread/INFO] [Puzzles Lib/]: Loading server config for easymagic
+[01Mar2026 16:40:43.571] [Server thread/INFO] [spark/]: Starting background profiler...
+[01Mar2026 16:40:44.839] [Server thread/INFO] [me.kall.duplicationless.data.EntityTracker/]: Duplicationless Entity Tracker has initialized successfully.
+[01Mar2026 16:40:45.137] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[01Mar2026 16:40:45.138] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[01Mar2026 16:40:45.775] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[01Mar2026 16:40:45.775] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[01Mar2026 16:40:45.775] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Mar2026 16:40:45.801] [Server thread/INFO] [Arclight/]: 注册了 4 个新的世界类型
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 4
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Mar2026 16:40:46.449] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Mar2026 16:40:46.450] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Mar2026 16:40:46.451] [Server thread/INFO] [Minecraft/]: View Distance: 6
+[01Mar2026 16:40:46.451] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Mar2026 16:40:46.836] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.obsidilith.ObsidilithUtils
+[01Mar2026 16:40:46.838] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.custom.gauntlet.GauntletEntity from class com.cerbon.bosses_of_mass_destruction.projectile.PetalBladeProjectile
+[01Mar2026 16:40:46.842] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.cerbon.bosses_of_mass_destruction.entity.util.BaseEntity from class com.cerbon.bosses_of_mass_destruction.entity.custom.void_blossom.hitbox.NetworkedHitboxManager
+[01Mar2026 16:40:47.239] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.vehicle.Boat from class com.dannbrown.deltaboxlib.common.content.entity.boat.BaseBoatEntity
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/faded_conquest_2/the_abyss] --------
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 4
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.320] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: View Distance: 6
+[01Mar2026 16:40:47.321] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/faded_conquest_2/the_mirror_realm] --------
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 4
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Mar2026 16:40:47.343] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: View Distance: 6
+[01Mar2026 16:40:47.344] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Mar2026 16:40:47.369] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[01Mar2026 16:40:47.369] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Mar2026 16:40:47.369] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Mar2026 16:40:47.369] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 4
+[01Mar2026 16:40:47.369] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Mar2026 16:40:47.369] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: View Distance: 6
+[01Mar2026 16:40:47.370] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 4
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: View Distance: 6
+[01Mar2026 16:40:47.388] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/graveyard/past] --------
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 4
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Mar2026 16:40:47.425] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: View Distance: 6
+[01Mar2026 16:40:47.426] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/mofus_better_end_/broken_constellation] --------
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 4
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[01Mar2026 16:40:47.441] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[01Mar2026 16:40:47.442] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[01Mar2026 16:40:47.442] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[01Mar2026 16:40:47.442] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[01Mar2026 16:40:47.442] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01Mar2026 16:40:47.442] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[01Mar2026 16:40:47.442] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[01Mar2026 16:40:47.442] [Server thread/INFO] [Minecraft/]: View Distance: 6
+[01Mar2026 16:40:47.442] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[01Mar2026 16:40:47.456] [Server thread/INFO] [ClearLag/]: Enabling ClearLag v3.2.2
+[01Mar2026 16:40:47.458] [Server thread/INFO] [Minecraft/]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[01Mar2026 16:40:47.659] [Server thread/INFO] [Minecraft/]: [ClearLag] Loading modules...
+[01Mar2026 16:40:47.664] [Server thread/WARN] [Minecraft/]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[01Mar2026 16:40:47.665] [Server thread/INFO] [Minecraft/]: [ClearLag] Modules enabed, loading config values
+[01Mar2026 16:40:47.672] [Server thread/INFO] [Minecraft/]: [ClearLag] Modules have been loaded!
+[01Mar2026 16:40:47.673] [Server thread/INFO] [Minecraft/]: [ClearLag] Clearlag is now enabled!
+[01Mar2026 16:40:47.674] [Thread-11/INFO] [Minecraft/]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[01Mar2026 16:40:47.675] [Server thread/INFO] [CrisTreeCapitator/]: Enabling CrisTreeCapitator v6.4.4
+[01Mar2026 16:40:47.675] [Server thread/INFO] [CrisTreeCapitator/]: WorldGuard not found. Maybe WorldGuard or this plugin are not up to date?
+[01Mar2026 16:40:47.857] [Thread-11/INFO] [Minecraft/]: [ClearLag] No updates found!
+[01Mar2026 16:40:47.857] [Server thread/INFO] [CrisTreeCapitator/]: Logs from JSON: [OAK_LOG, OAK_LOG, OAK_LOG, OAK_LOG]
+[01Mar2026 16:40:47.858] [Server thread/INFO] [CrisTreeCapitator/]: Leaves from JSON: [OAK_LEAVES, OAK_LEAVES, OAK_LEAVES, OAK_LEAVES]
+[01Mar2026 16:40:47.858] [Server thread/INFO] [CrisTreeCapitator/]: Enabled
+[01Mar2026 16:40:47.883] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[01Mar2026 16:40:47.891] [Server thread/INFO] [Ksyxis/MinecraftServerMixin/MOD_KSYXIS]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (injector: modern, ci: CallbackInfo[TYPE=CallbackInfo,NAME=m_129940_,CANCELLABLE=false], server: net.minecraft.server.dedicated.DedicatedServer@8a01374)
+[01Mar2026 16:40:47.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Mar2026 16:40:50.198] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2026 16:40:50.198] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2026 16:40:50.198] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2026 16:40:50.198] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2026 16:40:50.198] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2026 16:40:50.346] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2456 ms
+[01Mar2026 16:40:50.346] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.650s)! For help, type "help"
+[01Mar2026 16:40:50.405] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Mar2026 16:40:50.405] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[01Mar2026 16:40:50.434] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[01Mar2026 16:40:50.434] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[01Mar2026 16:40:50.434] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[01Mar2026 16:40:50.444] [Server thread/WARN] [ModernFix/]: Dedicated server took 59.497 seconds to load
+[01Mar2026 16:40:50.444] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[01Mar2026 16:40:53.554] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpTimeoutException: request timed out
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:898) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.22.jar%23416!/:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.22.jar%23416!/:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin,re:mixin}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.22.jar%23416!/:?] {}
+[01Mar2026 16:40:53.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[01Mar2026 16:40:53.584] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 9.0.9 Target: null
+[01Mar2026 16:40:53.584] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_qraftys_endvillages] Starting version check at https://api.modrinth.com/updates/NFlNaUBA/forge_updates.json
+[01Mar2026 16:40:53.661] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_qraftys_endvillages] Found status: OUTDATED Current: 1 Target: 1+mod
+[01Mar2026 16:40:53.661] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Starting version check at https://api.modrinth.com/updates/MCnBYP0b/forge_updates.json
+[01Mar2026 16:40:53.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_limesplatus_ending] Found status: OUTDATED Current: 1-v1.1.0c Target: 1.1.0c+mod
+[01Mar2026 16:40:53.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_qraftyfied] Starting version check at https://api.modrinth.com/updates/ibnDR6oc/forge_updates.json
+[01Mar2026 16:40:53.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_qraftyfied] Found status: OUTDATED Current: 6 Target: 6+mod
+[01Mar2026 16:40:53.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
+[01Mar2026 16:40:53.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[01Mar2026 16:40:53.848] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nirvana] Starting version check at https://api.modrinth.com/updates/nirvana-mod/forge_updates.json
+[01Mar2026 16:41:08.852] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.net.http.HttpTimeoutException: request timed out
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:898) ~[java.net.http:?] {}
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:142) ~[fmlcore-1.20.1-47.3.22.jar%23416!/:?] {}
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:180) ~[fmlcore-1.20.1-47.3.22.jar%23416!/:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin,re:mixin}
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.3.22.jar%23416!/:?] {}
+[01Mar2026 16:41:08.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[01Mar2026 16:41:08.863] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[01Mar2026 16:41:08.863] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Mar2026 16:41:08.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.22 Target: 47.4.10
+[01Mar2026 16:41:08.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[01Mar2026 16:41:09.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.6.12 Target: null
+[01Mar2026 16:41:09.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Starting version check at https://raw.githubusercontent.com/VidTu/Ksyxis/main/updater_ksyxis_forge.json
+[01Mar2026 16:41:09.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ksyxis] Found status: UP_TO_DATE Current: 1.3.4 Target: null
+[01Mar2026 16:41:09.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[01Mar2026 16:41:09.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.1 Target: null
+[01Mar2026 16:41:09.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[01Mar2026 16:41:09.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.33 Target: null
+[01Mar2026 16:41:09.768] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_trek] Starting version check at https://api.modrinth.com/updates/h2jngREY/forge_updates.json
+[01Mar2026 16:41:09.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_trek] Found status: BETA Current: 1-B0.5.1.2 Target: B0.6+mod
+[01Mar2026 16:42:11.806] [Server thread/INFO] [Console/]: TPS from last 1m, 5m, 15m: *20.0, *20.0, *20.0
+[01Mar2026 16:42:11.806] [Server thread/INFO] [Console/]: Current Memory Usage: 1421/2048 mb (Max: 12288 mb)
+[01Mar2026 16:42:18.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hola
+[01Mar2026 16:43:52.788] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player VenaticWinner67 is 27624550-5762-38db-a0a7-5ccd77095ef1
+[01Mar2026 16:43:54.897] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[01Mar2026 16:43:55.290] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VenaticWinner67[/100.94.128.47:62291] logged in with entity id 782 at (3827.600306964941, 408.8843078613281, -13424.436445851252)
+[01Mar2026 16:43:55.393] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player VenaticWinner67
+[01Mar2026 16:43:55.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VenaticWinner67 joined the game
+[01Mar2026 16:43:57.986] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3040ms or 60 ticks behind
+[01Mar2026 16:44:14.011] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of VenaticWinner67 (20)
+[01Mar2026 16:44:14.013] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to VenaticWinner67
+[01Mar2026 16:44:18.781] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 27624550-5762-38db-a0a7-5ccd77095ef1
+[01Mar2026 16:44:18.937] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5991ms or 119 ticks behind
+[01Mar2026 16:44:19.490] [Worker-Main-10/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[01Mar2026 16:44:19.490] [Worker-Main-10/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[01Mar2026 16:44:19.490] [Worker-Main-10/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [-55 absolute--60 absolute]
+[01Mar2026 16:44:20.751] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 27624550-5762-38db-a0a7-5ccd77095ef1
+[01Mar2026 16:44:20.758] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player VenaticWinner67 (27624550-5762-38db-a0a7-5ccd77095ef1) successfully connected to voice chat
+[01Mar2026 16:44:21.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VenaticWinner67 was kicked for floating too long!
+[01Mar2026 16:44:21.007] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VenaticWinner67 lost connection: Flying is not enabled on this server
+[01Mar2026 16:44:21.013] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client VenaticWinner67
+[01Mar2026 16:44:21.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VenaticWinner67 left the game.
+[01Mar2026 16:44:21.123] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Mar2026 16:44:32.715] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player VenaticWinner67 is 27624550-5762-38db-a0a7-5ccd77095ef1
+[01Mar2026 16:44:34.565] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VenaticWinner67[/100.94.128.47:62296] logged in with entity id 840 at (3827.600306964941, 408.8843078613281, -13424.436445851252)
+[01Mar2026 16:44:34.574] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player VenaticWinner67
+[01Mar2026 16:44:34.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VenaticWinner67 joined the game
+[01Mar2026 16:44:35.054] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of VenaticWinner67 (20)
+[01Mar2026 16:44:35.054] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to VenaticWinner67
+[01Mar2026 16:44:46.187] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 27624550-5762-38db-a0a7-5ccd77095ef1
+[01Mar2026 16:44:48.163] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 27624550-5762-38db-a0a7-5ccd77095ef1
+[01Mar2026 16:44:48.163] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player VenaticWinner67 (27624550-5762-38db-a0a7-5ccd77095ef1) successfully connected to voice chat
+[01Mar2026 16:45:23.751] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 27624550-5762-38db-a0a7-5ccd77095ef1 timed out
+[01Mar2026 16:45:23.751] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player VenaticWinner67
+[01Mar2026 16:45:23.751] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to VenaticWinner67
+[01Mar2026 16:45:39.296] [Worker-Main-8/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:4.976655f,range:8,source:{pos:[I;-242,-20,603],type:"minecraft:block"}}]
+[01Mar2026 16:45:48.956] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 27624550-5762-38db-a0a7-5ccd77095ef1
+[01Mar2026 16:45:56.939] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 27624550-5762-38db-a0a7-5ccd77095ef1
+[01Mar2026 16:45:56.939] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player VenaticWinner67 (27624550-5762-38db-a0a7-5ccd77095ef1) successfully connected to voice chat
+[01Mar2026 16:45:59.872] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Mar2026 16:45:59.873] [Server Shutdown Thread/INFO] [CrisTreeCapitator/]: Disabling CrisTreeCapitator v6.4.4
+[01Mar2026 16:45:59.878] [Server Shutdown Thread/INFO] [CrisTreeCapitator/]: Disabled
+[01Mar2026 16:45:59.911] [Server Shutdown Thread/INFO] [LuckPerms/]: Disabling LuckPerms v5.5.32
+[01Mar2026 16:45:59.911] [Server Shutdown Thread/INFO] [LuckPerms/]: Starting shutdown process...
+[01Mar2026 16:45:59.989] [Server Shutdown Thread/INFO] [LuckPerms/]: Closing storage...
+[01Mar2026 16:46:00.024] [Server Shutdown Thread/INFO] [LuckPerms/]: Goodbye!
+[01Mar2026 16:46:00.036] [Server Shutdown Thread/INFO] [ClearLag/]: Disabling ClearLag v3.2.2
+[01Mar2026 16:46:00.036] [Server Shutdown Thread/INFO] [Minecraft/]: [ClearLag] Clearlag is now disabled!
+[01Mar2026 16:46:00.051] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Mar2026 16:46:00.129] [Server Shutdown Thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VenaticWinner67 lost connection: Server closed
+[01Mar2026 16:46:00.145] [Server Shutdown Thread/INFO] [voicechat/]: [voicechat] Disconnecting client VenaticWinner67
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at org.h2.message.DbException.get(DbException.java:212)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at org.h2.engine.Database.close(Database.java:1144)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at TRANSFORMER/arclight@1.20.1-1.0.6-4e94eb76/io.izzel.arclight.common.mod.util.remapper.generated.RemappingURLClassLoader.findClass(RemappingURLClassLoader.java:90)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[01Mar2026 16:46:00.148] [Thread-9/ERROR] [STDERR/]: 	... 8 more
+[01Mar2026 16:46:00.171] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer/]: VenaticWinner67 left the game.
+[01Mar2026 16:46:00.179] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Mar2026 16:46:00.182] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Mar2026 16:46:00.209] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 33
+	at it.unimi.dsi.fastutil.longs.LongLinkedOpenHashSet.removeFirstLong(LongLinkedOpenHashSet.java:547) ~[fastutil-8.5.9.jar%23124!/:?] {re:mixin}
+	at net.minecraft.world.level.lighting.LeveledPriorityQueue.m_278178_(LeveledPriorityQueue.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint.m_75588_(DynamicGraphMinFixedPoint.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.server.level.DistanceManager$FixedPlayerDistanceChunkTracker.m_6410_(DistanceManager.java:445) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.DistanceManager$PlayerTicketTracker.m_6410_(DistanceManager.java:517) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.DistanceManager.m_140805_(DistanceManagerMixin.java:112) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.level.DistanceManagerMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerChunkCache.m_8489_(ServerChunkCacheMixin.java:273) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ChunkLoadDebug,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerChunkCacheMixin,pl:mixin:APP:smoothchunk.mixins.json:ServerChunkCacheMixin,pl:mixin:APP:pehkui.mixins.json:compat1201minus.compat117plus.ServerChunkManagerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCache_CurrentLoadingMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerChunkCache.bridge$tickDistanceManager(ServerChunkCacheMixin.java) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ChunkLoadDebug,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerChunkCacheMixin,pl:mixin:APP:smoothchunk.mixins.json:ServerChunkCacheMixin,pl:mixin:APP:pehkui.mixins.json:compat1201minus.compat117plus.ServerChunkManagerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCache_CurrentLoadingMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache_MainThreadExecutorMixin.java:631) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerChunkCache_MainThreadExecutorMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCacheMixin.java:269) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ChunkLoadDebug,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerChunkCacheMixin,pl:mixin:APP:smoothchunk.mixins.json:ServerChunkCacheMixin,pl:mixin:APP:pehkui.mixins.json:compat1201minus.compat117plus.ServerChunkManagerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCache_CurrentLoadingMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServerMixin.java:758) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServerMixin.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServerMixin.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServerMixin.java:2575) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServerMixin.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[01Mar2026 16:46:00.209] [Server Shutdown Thread/ERROR] [net.minecraft.server.Main/]: Caught previously unhandled exception :
+java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 33
+	at it.unimi.dsi.fastutil.longs.LongLinkedOpenHashSet.removeFirstLong(LongLinkedOpenHashSet.java:547) ~[fastutil-8.5.9.jar%23124!/:?] {re:mixin}
+	at net.minecraft.world.level.lighting.LeveledPriorityQueue.m_278178_(LeveledPriorityQueue.java:29) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.world.level.lighting.DynamicGraphMinFixedPoint.m_75588_(DynamicGraphMinFixedPoint.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading}
+	at net.minecraft.server.level.DistanceManager$FixedPlayerDistanceChunkTracker.m_6410_(DistanceManager.java:445) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.DistanceManager$PlayerTicketTracker.m_6410_(DistanceManager.java:517) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.level.DistanceManager.m_140805_(DistanceManagerMixin.java:112) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.level.DistanceManagerMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerChunkCache.m_8489_(ServerChunkCacheMixin.java:273) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ChunkLoadDebug,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerChunkCacheMixin,pl:mixin:APP:smoothchunk.mixins.json:ServerChunkCacheMixin,pl:mixin:APP:pehkui.mixins.json:compat1201minus.compat117plus.ServerChunkManagerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCache_CurrentLoadingMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerChunkCache.m_201698_(ServerChunkCacheMixin.java:309) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ChunkLoadDebug,pl:mixin:APP:mixins.arclight.core.json:server.level.ServerChunkCacheMixin,pl:mixin:APP:smoothchunk.mixins.json:ServerChunkCacheMixin,pl:mixin:APP:pehkui.mixins.json:compat1201minus.compat117plus.ServerChunkManagerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:bugfix.chunk_deadlock.ServerChunkCache_CurrentLoadingMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_7041_(MinecraftServerMixin.java:576) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_7041_(DedicatedServerMixin.java:510) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mixins.arclight.core.json:server.dedicated.DedicatedServerMixin,pl:mixin:APP:blueprint.mixins.json:DedicatedServerMixin,pl:mixin:APP:tombstone.mixins.json:DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.close(MinecraftServerMixin.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.fix_loop_spin_waiting.MinecraftServerMixin,pl:mixin:APP:mixins.arclight.core.json:server.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:perf.dedicated_reload_executor.MinecraftServerMixin,pl:mixin:APP:modernfix-modernfix.mixins.json:core.MinecraftServerMixin,pl:mixin:APP:citadel.mixins.json:MinecraftServerMixin,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:blueprint.mixins.json:MinecraftServerMixin,pl:mixin:APP:ksyxis.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.Main$1.redirect$bok000$arclight$shutdown(Main_ServerShutdownThreadMixin.java:515) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
+	at net.minecraft.server.Main$1.run(Main_ServerShutdownThreadMixin.java:235) ~[server-1.20.1-20230612.114412-srg.jar%23415!/:?] {re:mixin,re:classloading,pl:mixin:A}
